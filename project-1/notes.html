@@ -1,0 +1,85 @@
+<h1 id="project-1-notes">Project 1 Notes</h1>
+<h2 id="idf-intermediate-distribution-frame">IDF - Intermediate Distribution Frame</h2>
+<h3 id="location-connection">Location/Connection</h3>
+<p>Must be within 90ft of whatever computer you are servicing with copper cable</p>
+<p>Use single mode fiber to connect between IDFs and MDFs</p>
+<h3 id="fire-control">Fire Control</h3>
+<ol>
+<li>Prevention</li>
+<li>Supression<ul>
+<li>don&#39;t sprinkle the room</li>
+<li>use electronic safe foam</li>
+</ul>
+</li>
+<li>Detection</li>
+</ol>
+<p>Must use plenum cable for any cable running through the drop ceiling to prevent toxic
+fumes from being spread thought the building if there is a fire</p>
+<h2 id="power">Power</h2>
+<p>UPS allows cleans AC electricity by storing it in batteries and gives a clean stream of
+energy to your server infrastructure</p>
+<p>Based on the wattage that you are using, contact vendor for this info.</p>
+<p>Grounding and bonding cable goes to a 10ft spike in the ground to ground the entire system</p>
+<p>PC power and cooling is the best PSU vendor on the planet</p>
+<p>Get electricians in to get high power circuitry and 30 Amp twist locks. Around $45,000 to
+rewire the circuits</p>
+<h2 id="hvac-and-humidity-control">HVAC and Humidity Control</h2>
+<p>Air conditioning must be redundant</p>
+<p>Handles the humidity in the room</p>
+<p>Use BTUs to figure out what you need to air condition. Take Watts to BTUS and buy an Air
+conditioner with 30% more tonnage than you need and then buy a second one.</p>
+<h2 id="server-hardware-requirements">Server Hardware Requirements</h2>
+<ol>
+<li>Identify your needs<ul>
+<li>Certain amounts of ghz</li>
+<li>Certain amounts of ram</li>
+<li>Depends on what you want to do with your network</li>
+</ul>
+</li>
+</ol>
+<h2 id="physical-security">Physical Security</h2>
+<p>Don&#39;t let people just plug in random flash drives to your network without having the
+correct security</p>
+<p>Don&#39;t throw away your drives or store it unencrypted.</p>
+<p>Doors must be rated secure, fireproof, no outside wall, no outside wall, or in a basement</p>
+<h2 id="virtual-desktop-interface">Virtual Desktop Interface</h2>
+<p>All the work gets done on a server and the laptops are simply a thin-client.</p>
+<p>Must have a certain level of requirements to be able to have each user work</p>
+<h2 id="virtual-servers">Virtual Servers</h2>
+<p>Replaced having a server for every type of process, 80% of the time it would be idle</p>
+<p>Cost a lot of money in having to have each seperate computer</p>
+<h3 id="vmware-rainbow-">VMWare (rainbow)</h3>
+<ul>
+<li>VMWare</li>
+<li>Citrix</li>
+<li>Microsoft</li>
+</ul>
+<p>Runs on a tiny Linux kernel, called a hyper-visor</p>
+<p>Allows you to start partitioning your server virtually</p>
+<ul>
+<li>you can give # cpus and ram to any computer with any OS on it</li>
+<li>creates a pool of all of the hardware for all of the virtual machines</li>
+</ul>
+<h2 id="san-storage-area-network">SAN - Storage Area Network</h2>
+<p>Storage between network and storage</p>
+<p>Nexus switch can handle the high load of the data</p>
+<p>Blade servers connect to one chassis with # amount of PSUs, network ports, and you can
+slide blades with CPUs and RAM. This allows for only two redundant cables to go to the
+NEXUS switch.</p>
+<h2 id="kernel">Kernel</h2>
+<p>Takes shell commands and translates it to the correct instruction call</p>
+<p>Drivers allow it to talk to specific hardware that it can&#39;t account for</p>
+<h2 id="r-a-i-d">R.A.I.D</h2>
+<p>Redundant array of independent disks</p>
+<p>Lose the space of one hard drive to get multiple hard disks to work at the same time and
+replace a drive when it fails.</p>
+<p>RAID 50 stripes the stripes and then mirrors it.</p>
+<h2 id="important-considerations">Important Considerations</h2>
+<p>REDUNDANCY REDUNDANCY REDUNDANCY</p>
+<p>NEVER HAVE A SINGLE POINT OF FAILURE</p>
+<p>TELL PEOPLE THE RAMIFICATIONS OF THE REDUNDANCY. FIND CONSULTING MONEY.</p>
+<p>Pay someone to do server maintenance, you can&#39;t be an expert at something you do once a
+year.</p>
+<h2 id="firmware">Firmware</h2>
+<p>Software on an EEPROM</p>
+<p>Flashing rewrites the EEPROM</p>
