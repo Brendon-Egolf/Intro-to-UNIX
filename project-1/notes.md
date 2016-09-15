@@ -33,7 +33,7 @@ Grounding and bonding cable goes to a 10ft spike in the ground to ground the ent
 
 PC power and cooling is the best PSU vendor on the planet
 
-Get electricians in to get high power circuitry and 30 Amp twist locks. Around $45,000 to
+Get electricians in to get high power circuitry and 30 Amp twist locks. Around \$45,000 to
 rewire the circuits
 
 HVAC and Humidity Control
@@ -45,6 +45,8 @@ Handles the humidity in the room
 
 Use BTUs to figure out what you need to air condition. Take Watts to BTUS and buy an Air
 conditioner with 30% more tonnage than you need and then buy a second one.
+
+Make sure that your HVAC is also on the generator for when the power goes out.
 
 Server Hardware Requirements
 ----------------------------
@@ -82,7 +84,7 @@ Cost a lot of money in having to have each seperate computer
 * Citrix
 * Microsoft
 
-Runs on a tiny Linux kernel, called a hyper-visor
+Runs on a tiny Linux kernel, called a hyper-visor, VMWare's version is called ESXi
 
 Allows you to start partitioning your server virtually
 * you can give # cpus and ram to any computer with any OS on it
