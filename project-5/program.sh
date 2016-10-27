@@ -88,9 +88,10 @@ updateMenuName() {
   fi
 
   if [[ -z "$menuName" ]]; then
+    clear
     echo -e "\nInvalid selection\n"
-    getSelection
-    updateMenuName
+    menuName="main-menu"
+    sleep 1
   fi
 
 }
