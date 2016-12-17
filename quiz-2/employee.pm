@@ -3,10 +3,10 @@
 unit module employee;
 use strict;
 
-class Patient is export {
-  has Int $.departmentNumber;
-  has Int $.idNumber;
-  has Int $.yearsOfService;
+class Employee is export {
+  has $.departmentNumber;
+  has $.idNumber;
+  has $.yearsOfService;
 
   method new($departmentNumber, $idNumber, $yearsOfService) {
     self.bless(:$departmentNumber, :$idNumber, :$yearsOfService);
