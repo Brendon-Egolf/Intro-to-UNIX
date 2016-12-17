@@ -17,6 +17,7 @@ sub main() {
   my Bool $win = False;
   my Bool $lose = False;
   $word = getWord;
+  clear;
   printWelcome;
   pause;
   until ($win || $lose) {
